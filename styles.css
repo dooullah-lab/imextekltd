@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #EEF3F7; /* Soft gray-blue background */
+  color: #333;
+}
+
+/* ===== Banner Section ===== */
+.banner {
+  background-color: #D6E4F0; /* Smooth gray-blue landing area */
+  text-align: center;
+  padding: 120px 10%;
+  color: white;
+  position: relative;
+}
+
+.banner-logo {
+  width: 230px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.banner-tag {
+  color: #002244;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.slogan {
+  color: #0055AA;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0055aa;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #003366;
+  color: #003366;
+}
+
+.btn-outline:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* ===== Main Content ===== */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.services-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer .socials {
+  margin-top: 8px;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

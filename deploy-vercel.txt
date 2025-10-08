@@ -1,0 +1,74 @@
+IMEX-TEK GLOBAL LTD — Vercel Deploy (Simple, kid-friendly)
+==========================================================
+
+Before you start:
+- Make sure your folder (imextek-portfolio) has:
+  index.html
+  styles.css
+  assets/logo.png
+
+Part A — Make the folder and add files
+1. Create a folder on your Desktop named: imextek-portfolio
+2. Put the files inside that folder (index.html, styles.css, assets folder with logo.png)
+
+How to create folder & files (Windows):
+- Right-click Desktop -> New -> Folder -> name it "imextek-portfolio"
+- Open the folder, right-click -> New -> Text Document -> rename to index.html (remove .txt)
+- Paste the index.html content into it and save.
+- Repeat for styles.css and README.txt.
+- Create a new folder inside called "assets" and copy your logo image into it. Rename logo file to logo.png.
+
+On Mac:
+- On Desktop click File -> New Folder -> name it imextek-portfolio
+- Open it, right-click -> New File (or use TextEdit and Save As -> index.html). Make sure Save As: Plain Text.
+- Create "assets" folder inside and add logo.png.
+
+Part B — Deploy to Vercel (drag & drop; easiest)
+1. Open browser, go to https://vercel.com
+2. Click "Sign Up" -> Continue with Google (or GitHub)
+3. Once logged in, go to https://vercel.com/new
+4. Scroll down to the "Deploy a Project" section that has "Drag and Drop"
+5. Drag the whole imextek-portfolio folder onto that box (or click to select)
+6. Vercel will upload and deploy automatically.
+7. After a short moment you'll see "Deployment Complete" and a link like:
+   https://imextek-portfolio-xxxxx.vercel.app
+8. Click the link to open your live site (it is HTTPS and free).
+
+Part C — Update after changes
+- If you edit files locally, redeploy by dragging the updated folder again to the Vercel page OR
+- Better: push to GitHub and connect repo to Vercel for automatic deploys (see Part D).
+
+Part D — (Optional) Deploy using GitHub for automatic updates
+1. Create a GitHub account and new repository (name: imextek-portfolio).
+2. Upload the folder files to the repo (or use Git to push).
+3. In Vercel click "New Project" -> Import Git Repository -> choose your repo -> Deploy.
+4. Now every time you push to main branch, Vercel redeploys automatically.
+
+Part E — Make contact form work (Formspree)
+1. Go to https://formspree.io and sign up (free).
+2. Create a new form. It will produce an endpoint like:
+   https://formspree.io/f/abcd1234
+3. Open index.html in a text editor, find the form tag:
+   action="https://formspree.io/f/yourformid"
+   Replace with your new endpoint, save file.
+4. Redeploy (drag folder again or push to GitHub). Test by sending a message.
+
+Part F — Add a custom domain (if you have one)
+1. On Vercel dashboard open your project -> Settings -> Domains -> Add
+2. Type your domain (example: eximtek.com) and follow the DNS instructions shown.
+3. At the domain registrar, add the DNS records Vercel asks for (they provide exact values).
+4. Wait a few minutes to a few hours for DNS to propagate.
+
+Testing checklist:
+- Open the Vercel URL -> site loads (logo visible)
+- Click "Get Started" scrolls to contact
+- Click WhatsApp opens chat with +2348166757206
+- Submit contact form -> check your email (after Formspree setup)
+
+If anything breaks:
+- Check file names (index.html must be exactly named)
+- Make sure logo file path is assets/logo.png (exact)
+- Clear browser cache or open in private/incognito
+- Tell me the exact error and I’ll fix it with exact text to paste.
+
+-- end
