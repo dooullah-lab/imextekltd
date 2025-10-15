@@ -135,11 +135,13 @@ body {
   width: 90%;
   border-radius: 4px;
   border:1px solid #002244;
+  margin-top: 8px;
 }
 .label textarea{
   padding: 8px;
   border:2px solid #002244;
   width: 90%;
   border-radius: 4px;
+  margin-top: 8px;
 
 }
